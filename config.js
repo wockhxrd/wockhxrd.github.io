@@ -25,7 +25,7 @@ config.logo_use_image = true
 config.logo_image = "logo.png"
 
 // Text to be shown on logo
-config.logo_text = "SleekLoad"
+config.logo_text = "Bananakin Gaming Network | Clone Wars"
 
 // Use the server's name for the logo
 config.logo_servername = false
@@ -41,7 +41,7 @@ config.logo_show_info = true
 // Use a video for the background?
 // Otherwise it will use images
 // "true" or "false"
-config.background_use_video = true
+config.background_use_video = false
 
 // Default available videos:
 // "blue_rays.webm"
@@ -67,9 +67,12 @@ config.background_map_based = false
 // Multiple images will automatically shuffle between them
 // (Place the image files in the backgrounds/images folder)
 config.background_images = [
-	"background1.jpg",
-	"background2.jpg",
-	"background3.jpg",
+	"1.jpg",
+	"2.jpg",
+	"3.jpg",
+	"4.jpg",
+	"5.jpg",
+	"6.jpg",
 ]
 
 // (Image-background only)
@@ -133,7 +136,7 @@ config.music_random_order = true
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-config.music_volume = 15
+config.music_volume = 10
 
 // Use Gmod volume for the music instead of manual volume
 config.music_gmod_volume = true
@@ -144,8 +147,7 @@ config.messages_enable = true
 
 // Enter your custom messages below
 config.messages_list = [
-	"Welcome to SleekLoad!",
-	"Customize your loading screen by editing the config file",
+	"Welcome to BGN!",
 	"Enjoy!",
 ]
 
@@ -155,11 +157,11 @@ config.messages_random_order = false
 
 // Delay between message changes
 // in milliseconds
-config.messages_delay = 5000
+config.messages_delay = 10000
 
 // Messages fade duration
 // in milliseconds
-config.messages_fade_duration = 1000
+config.messages_fade_duration = 1500
 
 // Show errors inside Garry's Mod?
 // Can be useful for finding errors
