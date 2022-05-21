@@ -36,7 +36,7 @@ config.logo_center = true
 
 // Display current map and gamemode?
 // "true" or "false"
-config.logo_show_info = true
+config.logo_show_info = false
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -149,15 +149,23 @@ config.messages_enable = true
 config.messages_list = [
 	"Welcome to BGN!",
 	"Enjoy!",
+	"Staff have final say, but will use a judicial system to give any punishments.",
+	"Do not spam in the chat.",
+	"Do not micspam.",
+	"RDM is not tolerated.",
+	"Have Fun, and play smart.",
+	"No inappropriate names.",
+	"Keep @s to a minimum.",
+	"No FailRP.",
 ]
 
 // Random message order?
 // "true" or "false"
-config.messages_random_order = false
+config.messages_random_order = true
 
 // Delay between message changes
 // in milliseconds
-config.messages_delay = 10000
+config.messages_delay = 15000
 
 // Messages fade duration
 // in milliseconds
