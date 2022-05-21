@@ -148,20 +148,20 @@ config.messages_enable = true
 // Enter your custom messages below
 config.messages_list = [
 	"Welcome to BGN!",
-	"Enjoy!",
+	"Have Fun, and play smart.",
 	"Staff have final say, but will use a judicial system to give any punishments.",
 	"Do not spam in the chat.",
 	"Do not micspam.",
 	"RDM is not tolerated.",
-	"Have Fun, and play smart.",
 	"No inappropriate names.",
 	"Keep @s to a minimum.",
 	"No FailRP.",
+	"Enjoy!",
 ]
 
 // Random message order?
 // "true" or "false"
-config.messages_random_order = true
+config.messages_random_order = false
 
 // Delay between message changes
 // in milliseconds
